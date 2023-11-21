@@ -1,0 +1,16 @@
+[package]
+name = "nan_os"
+version = "0.1.0"
+edition = "2018"
+authors = ["Guilherme Caporali guilhermesccaporali@protonmail.com"]
+
+[dependencies]
+rdrand = "*"
+bootloader = "0.9.*"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
