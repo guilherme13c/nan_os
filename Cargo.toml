@@ -14,10 +14,12 @@ harness = false
 
 [dependencies]
 bootloader = "0.9.*"
-volatile = "*"
+volatile = "0.3.*"
 spin = "*"
 x86_64 = "0.14.2"
 uart_16550 = "*"
+pic8259 = "0.10.1"
+pc-keyboard = "*"
 
 [dependencies.lazy_static]
 version = "1.0"
